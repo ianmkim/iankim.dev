@@ -1,0 +1,49 @@
+{% extends "layout" %}
+{% block page %}
+
+</br>
+<p><a href="https://github.com/ianmkim">ianmkim</a>/README.txt<p>
+<p><strong>Ian (Min Seok) Kim</strong></p>
+<p style="letter-spacing: 0px;">Engineer by day, broke philosopher by night. Love low-level & systems programming, can handle AI/ML.</p>
+
+<p>Resume <a href="/static/ikim_final_resume.pdf">here</a></p>
+
+<hr>
+
+<div class="list">
+<p class="list">CS & Philosophy &nbsp @ Dartmouth</p>
+<p class="list">Robotics Intern &nbsp @ Neuralink</p>
+<p class="list">Autonomy Intern &nbsp @ Ghost Robotics</p>
+<p class="list">Robotics Software @ Invisio-AI</p>
+<p class="list">Consultant &nbsp&nbsp&nbsp&nbsp &nbsp @ Franca.ai</p>
+<p class="list">Co-founder &nbsp&nbsp&nbsp&nbsp &nbsp @ Daelus Space Inc</p>
+
+</br>
+<p class="list">Tech Director &nbsp&nbsp &nbsp@ Hanover Review Inc</p>
+<p class="list">Software Engineer @ OEI Events LLC</p>
+<p class="list">Project Manager &nbsp&nbsp@ Orchid Galleries LLC</p>
+<p class="list">Branch Manager &nbsp&nbsp&nbsp@ Nenasala Udubaddawa</p>
+
+<hr>
+
+<p class="list">
+ianmkim @ <a href="https://twitter.com/ianmkim">twitter</a>
+</p>
+<p class="list">
+ianmkim @ <a href="https://github.com/ianmkim">github</a>
+</p>
+<p class="list">
+Ian Kim @ <a href="https://www.linkedin.com/in/ian-kim-6772ab1a6/">linkedin</a>
+</p>
+
+
+<p class="list">
+<a href="https://blog.ianmkim.com">Blog (https://blog.ianmkim.com)</a>
+</p>
+
+</br>
+<p>ian@ianmkim.com</p>
+
+<button onclick="toggle()">dark mode</button>
+
+{% endblock %}

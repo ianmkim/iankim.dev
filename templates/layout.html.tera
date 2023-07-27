@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="/static/index.css">-->
+
+    <style>
+      @font-face {
+          font-family: SFMono;
+          src: url("/static/fonts/SFMonoRegular.otf") format("opentype");
+      }
+
+      @font-face{
+          font-family: SFMono;
+          font-weight: bold;
+          src: url("/static/fonts/SFMonoBold.otf") format("opentype");
+      }
+
+      @font-face{
+          font-family: SFMono;
+          font-style: italic;
+          src: url("/static/fonts/SFMonoRegularItalic.otf") format("opentype");
+      }
+
+      *{
+          font-family: SFMono, monospace;
+          letter-spacing: 0px;
+      }
+
+      .list{
+          margin-bottom: 0px;
+      }
+
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .dark-mode a{
+        color: #d9deff;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+
+    </style>
+
+    <title>Ian Kim</title>
+  </head>
+  <body>
+    <div class="container">
+
+      {% block page %}
+      {% endblock %}
+
+    </div><!--- main div --->
+    <script>
+      var dark = true;
+      darkMode();
+
+      function toggle(){
+          if(dark){
+              lightMode();
+          } else darkMode();
+      }
+
+      function darkMode() {
+        dark = true;
+        var element = document.body;
+        element.className = "dark-mode";
+      }
+      function lightMode() {
+        dark = false;
+        var element = document.body;
+        element.className = "light-mode";
+      }
+    </script>
+  </body>
+</html>
