@@ -20,6 +20,7 @@ WORKDIR /app
 # Get compiled binaries from builder's cargo install directory
 COPY --from=builder /usr/src/app/iankim /app/iankim
 COPY --from=builder /usr/src/app/templates /app/templates
+COPY --from=builder /usr/src/app/blogs /app/blogs
 COPY --from=builder /usr/src/app/static /app/static
 COPY --from=builder /usr/src/app/Rocket.toml /app/Rocket.toml
 
