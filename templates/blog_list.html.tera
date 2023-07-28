@@ -1,0 +1,15 @@
+{% extends "layout" %}
+{% block page %}
+
+</br>
+</br>
+<h1><em>Writings</em></h1>
+</br>
+
+{% for blog in posts%}
+<a style="padding-bottom:20px;" href="{{blog.link}}">
+    <h5>{{blog.order}}. {{blog.title}}</h5>
+</a>
+{% endfor %}
+
+{% endblock %}
