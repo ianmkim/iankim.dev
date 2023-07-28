@@ -1,0 +1,30 @@
+{% extends "layout" %}
+{% block page %}
+
+<style>
+ img {
+    width: 100%;
+ }
+
+ p {
+    font-family: Georgia, serif;
+ }
+
+ h1 {
+    margin-bottom: 1rem;
+ }
+
+ h2 {
+    padding-top: 1.5rem;
+ }
+</style>
+
+</br>
+<a onclick="history.back()">< back</a>
+</br>
+</br>
+
+<h5 style="margin-bottom:0px; float: right;">by <em>Ian Kim</em></h5>
+{{raw_post | safe }}
+
+{% endblock %}

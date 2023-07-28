@@ -14,6 +14,7 @@ pub fn rocket_builder() -> rocket::Rocket {
         .attach(SpaceHelmet::default())
         .attach(Template::fairing())
         .mount("/", routes![routes::index::index_fn])
+        .mount("/blog", routes![routes::blog::read_fn, routes::blog::blogs_fn])
         .mount("/ping", routes![routes::ping::ping_fn])
         .mount("/static", StaticFiles::from("static/"))
 }

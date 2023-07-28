@@ -62,7 +62,6 @@
     </div><!--- main div --->
     <script>
       var dark = true;
-      darkMode();
 
       function toggle(){
           if(dark){
