@@ -24,7 +24,7 @@
 </br>
 </br>
 
-<h5 style="margin-bottom:0px; float: right;">by <em>Ian Kim</em></h5>
+<h5 style="margin-bottom:0px; float: right;">by <em>Brian Wu</em></h5>
 {{raw_post | safe }}
 
 {% endblock %}
