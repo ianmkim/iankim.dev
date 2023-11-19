@@ -24,5 +24,7 @@ COPY --from=builder /usr/src/app/blogs /app/blogs
 COPY --from=builder /usr/src/app/static /app/static
 COPY --from=builder /usr/src/app/Rocket.toml /app/Rocket.toml
 
+EXPOSE 8080
+
 # Run the app
 CMD ./iankim
