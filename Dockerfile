@@ -1,15 +1,15 @@
-FROM rust:latest as builder
+FROM rust:1.74.0 as builder
 
 WORKDIR /usr/src/app
 COPY . .
 # Will build and cache the binary and dependent crates in release mode
-RUN --mount=type=cache,target=/usr/local/cargo,from=rust:latest,source=/usr/local/cargo \
+RUN --mount=type=cache,target=/usr/local/cargo,from=rust:1.74.0,source=/usr/local/cargo \
     --mount=type=cache,target=target \
     rustup default nightly; \
     cargo build --release && mv ./target/release/iankim ./iankim
 
 # Runtime image
-FROM debian:bullseye-slim
+FROM ubuntu:23.10
 
 # Run as "app" user
 RUN useradd -ms /bin/bash app
