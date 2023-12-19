@@ -2,10 +2,9 @@
 {% block page %}
 
 </br>
-<p><a href="https://github.com/brianwu568">bwu.ai</a>/README.txt<p>
-<p><strong>Brian Wu</strong></p>
-<p style="letter-spacing: 0px;">I like to build robots for Earth and Space. Interested in Autonomy and SpaceTech. Can do AI/ML.</p>
-<p style="letter-spacing: 0px;"><em>Engineering from the ground up.</em></p>
+<p><a href="https://github.com/ianmkim">ianmkim</a>/README.txt<p>
+<p><strong>Ian (Min Seok) Kim</strong></p>
+<p style="letter-spacing: 0px;">Engineer by day, broke philosopher by night. Aspiring low-level & systems programmer. Can handle AI/ML.</p>
 
 <p style="padding-bottom; 0px; margin-bottom:0px;">Resume <a href="/static/ikim_final_resume.pdf">here</a></p>
 <p style="margin-top: 0px;">Writings <a href="blog">here</a>
@@ -13,48 +12,35 @@
 <hr>
 
 <div class="list">
-<p class="list"><strong>B.S. CS (Artificial Intelligence)</strong> &nbsp @ Stanford</p>
-<p class="list"><strong>M.S. CS (AI + Robotics)</strong> &nbsp @ Stanford</p>
-
-<!--
-<p class="list"><strong>Robotics Intern</strong> &nbsp @ Neuralink</p>
 <p class="list"><strong>Robotics Engineer</strong> @ Neuralink</p>
 <p class="list"><strong>CS & Philosophy</strong> &nbsp @ Dartmouth</p>
 <p class="list">Robotics Intern &nbsp @ Neuralink</p>
 <p class="list">Autonomy Intern &nbsp @ Ghost Robotics</p>
--->
+<p class="list">Co-founder &nbsp&nbsp&nbsp&nbsp &nbsp @ Daelus Space Inc</p>
+<p class="list">Consultant &nbsp&nbsp&nbsp&nbsp &nbsp @ Franca.ai</p>
 
 </br>
-
-<p class="list"><strong>Co-founder</strong> &nbsp&nbsp&nbsp&nbsp &nbsp @ Foundational Machines</p>
-<p class="list">Co-founder &nbsp&nbsp&nbsp&nbsp &nbsp @ Daelus Space</p>
-<p class="list">Founding Partner &nbsp&nbsp&nbsp&nbsp &nbsp @ Franca.ai</p>
-<p class="list">Quantitative Research Intern &nbsp @ Millennium Management LLC</p>
-<p class="list">Investment Associate Intern &nbsp @ Takeoff Capital</p>
-
-<!--
 <p class="list">Robotics Software @ Invisio-AI</p>
 <p class="list">Tech Director &nbsp&nbsp &nbsp@ Hanover Review Inc</p>
 <p class="list">Software Engineer @ OEI Events LLC</p>
 <p class="list">Project Manager &nbsp&nbsp@ Orchid Galleries LLC</p>
 <p class="list">Branch Manager &nbsp&nbsp&nbsp@ Nenasala Udubaddawa</p>
--->
 
 <hr>
 
 <p class="list">
-BrianMikeWu @ <a href="https://twitter.com/brianmikewu">twitter</a>
+ianmkim @ <a href="https://twitter.com/ianmkim">twitter</a>
 </p>
 <p class="list">
-BrianWu568 @ <a href="https://github.com/BrianWu568">github</a>
+ianmkim @ <a href="https://github.com/ianmkim">github</a>
 </p>
 <p class="list">
-Brian Wu @ <a href="https://www.linkedin.com/in/BrianWu568/">linkedin</a>
+Ian Kim @ <a href="https://www.linkedin.com/in/ian-kim-6772ab1a6/">linkedin</a>
 </p>
 
 
 </br>
-<p>brian@bwu.ai</p>
+<p>ian@ianmkim.com</p>
 
 <button onclick="toggle()">dark mode</button>
 
